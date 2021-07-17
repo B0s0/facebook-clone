@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 92%;
+  background-color: #f1f2f5;
+}
+
+.footer_icon--active > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.footer_icon--active {
+  border-bottom: 4px solid #2e81f4;
+}
