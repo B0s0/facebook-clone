@@ -1,5 +1,5 @@
 import React from 'react'
-import './Widgets.css'
+import '../styles/Widgets.css'
 
 function Widgets() {
 	return (

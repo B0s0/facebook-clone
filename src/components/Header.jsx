@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Header.css";
+import "../styles/Header.css";
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
 import FlagIcon from '@material-ui/icons/Flag';
@@ -11,8 +11,8 @@ import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/Forum';
 import NotificationActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { useStateValue } from './StateProvider';
-import useWindowSize from './useWindowSize';
+import { useStateValue } from '../utils/StateProvider';
+import useWindowSize from '../utils/useWindowSize';
 
 
 function Header() {

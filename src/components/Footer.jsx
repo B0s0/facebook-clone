@@ -4,7 +4,7 @@ import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined'
 import NotificationActiveIcon from '@material-ui/icons/NotificationsActive';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
 import ReorderIcon from '@material-ui/icons/Reorder';
-import './Footer.css';
+import '../styles/Footer.css';
 
 
 function Footer() {

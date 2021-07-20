@@ -1,14 +1,14 @@
 
 import './App.css';
-import Header from './Header.jsx';
-import Sidebar from './Sidebar.jsx';
-import Feed from './Feed.jsx';
-import Widgets from './Widgets.jsx';
-import Login from './Login.jsx';
-import Footer from './Footer.jsx'
-import { useStateValue } from './StateProvider';
+import Header from './components/Header.jsx';
+import Sidebar from './components/Sidebar.jsx';
+import Feed from './components/Feed.jsx';
+import Widgets from './components/Widgets.jsx';
+import Login from './components/Login.jsx';
+import Footer from './components/Footer.jsx'
+import { useStateValue } from './utils/StateProvider';
 import db from './firebase';
-import useWindowSize from './useWindowSize';
+import useWindowSize from './utils/useWindowSize';
 require('dotenv').config()
 
 function App() {

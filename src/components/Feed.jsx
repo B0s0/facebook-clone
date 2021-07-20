@@ -1,10 +1,10 @@
 import React, { useState , useEffect} from 'react';
-import "./Feed.css";
+import "../styles/Feed.css";
 import StoryReel from "./StoryReel";
 import MessageSender from "./MessageSender";
 import Post from "./Post";
-import db from "./firebase";
-import useWindowSize from './useWindowSize';
+import db from "../firebase";
+import useWindowSize from '../utils/useWindowSize';
 
 function Feed() {
     const [posts, setPosts] = useState([]);
