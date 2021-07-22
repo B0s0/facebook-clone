@@ -18,14 +18,18 @@ function MessageSender() {
 	const { width } = useWindowSize();
 	const handleSubmit = (e) => {
 		e.preventDefault();
+		if (input || imageUrl) {
 
-		db.collection('posts').add({
-			message: input,
-			timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-			profilePic: user.photoURL,
-			username: user.displayName,
-			image: imageUrl,
-		});
+			db.collection('posts').add({
+				message: input,
+				timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+				profilePic: user.photoURL,
+				username: user.displayName,
+				image: imageUrl,
+			});
+		} else {
+			alert('Please enter something in either of the field :)')
+		}
 
 		setInput('')
 		setImageUrl('')
