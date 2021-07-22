@@ -31,5 +31,5 @@ Rename 	`env.example` to `.env`
 ### Firebase Deploy
 Manage your hosting settings and deploy this to firebase. I WON'T be covering this topic, you can find videos online.
 
-### Live Demo
+## Live Demo
 <a href="https://fb-clone-6ddeb.firebaseapp.com/"> CHECK ME OUT!!</a>
